@@ -1,0 +1,31 @@
+.weather-icon {
+  background-image: url('../assets/weather-forecast.jpg');
+  width: 190px;
+  height: 145px;
+  transform-origin: left top;
+  background-position: -102px -219px;
+}
+
+.weather-icon--cloudy {
+  background-position: -102px -37px;
+}
+
+.weather-icon--rainy {
+  background-position: -366px -38px;
+}
+
+.weather-icon--partly-cloudy {
+  background-position: -102px -219px;
+}
+
+.weather-icon--overcast {
+  background-position: -80px -422px;
+}
+
+.weather-icon--sunny {
+  background-position: -352px -219px;
+}
+
+.weather-icon--thunderstorms {
+  background-position: -351px -435px;
+}

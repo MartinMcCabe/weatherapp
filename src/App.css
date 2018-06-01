@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Abel', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --blue: #4286f4;
+  --white: #FFF;
+}
+
+.App {
+  min-height: 100%;
+  width: 100%;
+  position: absolute;
+  background: var(--blue);
+}
+
+.content {
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto;
+}
