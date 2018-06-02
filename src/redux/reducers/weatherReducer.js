@@ -199,11 +199,11 @@ const initState = {
 export default function weatherReducer(state = initState, action) {
   switch (action.type) {
 
-    case SHOW_DAY:
-      return {
-        ...state,
-        current_day: action.day
-      }
+    /**
+     * here I would have a CASE for each action
+     * to alter the state accordingly.
+     * But for now, we just return state as is because nothing ever changes.
+     */
 
     default:
       return state;
