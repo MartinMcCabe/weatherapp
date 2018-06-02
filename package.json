@@ -3,13 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^1.1.0",
+    "@material-ui/icons": "^1.1.0",
+    "classnames": "^2.2.5",
     "prop-types": "^15.6.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.4",
     "react-spritesheet": "^1.0.1",
-    "redux": "^4.0.0"
+    "redux": "^4.0.0",
+    "typeface-abel": "^0.0.54"
   },
   "scripts": {
     "start": "react-scripts start",

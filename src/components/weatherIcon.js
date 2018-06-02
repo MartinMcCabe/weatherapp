@@ -1,6 +1,7 @@
 import React from 'react';
 import './weatherIcon.css';
 
+
 function getClass(weatherId) {
   const weatherIdLookup = {
     0: 'cloudy',
