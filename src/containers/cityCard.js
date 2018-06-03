@@ -11,6 +11,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Collapse from '@material-ui/core/Collapse/Collapse';
 import classnames from 'classnames';
 import Grow from '@material-ui/core/Grow/Grow';
+import Divider from '@material-ui/core/Divider';
 
 
 const styles = theme => ({
@@ -62,7 +63,12 @@ class CityCard extends Component {
 
     return Object.keys(data.list).map( (day, i) => {
       if(i > 0){
-        return <Day day={this.getDayFromDate(data.list[day].date)} data={data.list[day]} show={this.state.showDays} key={i}/>
+        return (
+          <React.Fragment key={i}>
+            <Day day={this.getDayFromDate(data.list[day].date)} data={data.list[day]} show={this.state.showDays}/>
+            <Divider />
+          </React.Fragment>
+        )
       }else{
         return null;
       }

@@ -7,7 +7,7 @@ import classnames from 'classnames'
 
 const styles = theme => ({
   day: {
-    height: 45,
+    height: 65,
     display: 'flex',
   },
   icon: {
@@ -52,7 +52,7 @@ const styles = theme => ({
       <div className={classes.day}>
 
         <Grid container spacing={0} alignItems={'center'}>
-          <Grid item xs={9}>
+          <Grid item xs={7} sm={9}>
             <Typography variant="subheading">{this.props.day}</Typography>
           </Grid>
           <Grid item xs={3}>
